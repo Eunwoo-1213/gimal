@@ -1,0 +1,18 @@
+# 8장 자바빈즈
+
+  
+
+<h2> JavaBeans를 이용한 학생의 이름와 성적의 저장과 조회 예제</h2>
+	<jsp:useBean id="score" class="javabean.ScoreBean" scope ="page" />
+	
+	<HR>
+	<h3> 이름과 성적을 javaBeans ScoreBean에 저장</h3><p>
+	이름 : <%= "김성민" %>
+	성적 : <%= "85" %>
+	<jsp:setProperty name = "score" property= "name" value = "김성민"/>
+	<jsp:setProperty name = "score" property= "point" value = "85"/>
+	
+	<HR>
+	<jsp:getProperty name = "score" property= "name" /><br>
+	<jsp:getProperty name = "score" property= "point" /><br>
+	
