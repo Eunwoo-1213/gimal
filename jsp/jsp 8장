@@ -1,5 +1,6 @@
 # 8장 자바빈즈
 
+score.jsp
 <jsp:setProperty.. /> 에서 이용하는 속성은 name, property, param, value
 <jsp:getProperty.. /> 에서 이용하는 속성은 name, property
 
