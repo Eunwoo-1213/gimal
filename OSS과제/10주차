@@ -3,15 +3,15 @@ OSS와 가장 관련이 적은 것은? Copyright (저작권)
 OSS와 저작권 중에서 가장 의무가 적은 저작권은?(MIT)
 
 #Stash
-$git stash 사용 시
+$ git stash 사용 시
 작업 디렉토리, 스테이징 영역이 로컬 저장소의 최신 커밋 자료로 바뀌고, stash에 저장 됨
 
 $git stash -k 스테이징 영역은 제외(작업 디렉토리에만 최신 커밋 자료)
 $git stash -u Untracked 파일도 저장
 
 내용을 다시 복원 하고 싶을 때(기본적으로 복원을 할 때에는 작업 디렉토리만 복원 됨)
-$git stash apply (작업디렉토리 O, 스테이지 영역 X)
-%git stash apply --index(작업디렉토리 O, 스테이징 영역 O
+$ git stash apply (작업디렉토리 O, 스테이지 영역 X)
+$ git stash apply --index(작업디렉토리 O, 스테이징 영역 O
 
 Stash 목록 보기
 $git stash list
