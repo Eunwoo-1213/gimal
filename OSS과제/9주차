@@ -1,0 +1,15 @@
+# 오픈소스 소프트웨어 9~13 주차 (과제)
+
+9주차 정리
+#clone
+$git clone [원격저장소 주소] 원격 저장소와 동일한 이름으로 하부 폴더 복제
+$git clone [원격저장소 주소][새로운 폴더명] 새로운 폴더명을 하부 폴더로 사용하여 복제
+$git clone [원격저장소 주소]. 현재 폴더에 바로 복제
+
+복제 후
+$git remote를 사용하면 원격저장소의 별칭 이름은 origin
+$git remote rename origin org (별칭 이름 수정 origin -> org)
+
+#push, pull
+로컬 저장소 -> 원격 저장소(push) $git push
+로컬 저장소 <- 원격 저장소(pull) $git pull = git fetch + git merge, 예시순서(1. $git fetch origin 2. $git merge origin/main)
