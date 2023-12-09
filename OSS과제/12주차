@@ -1,0 +1,9 @@
+#rebase
+main과 topic이 있다고 가정
+1. $ git checkout topic  | topic으로 HEAD 이동
+2. $ git rebase main     | 공통 조상 뒤에 있는 main 뒤에 topic이 이동( git rebase main topic 도 됨 (주관식 문제))
+3. $ git checkout main   | main으로 HEAD 이동
+4. $ git merge topic     | main을 topic으로 이동
+                         v
+(변경 내역 이력이 모두 남음, 정확한 이력을 남기려면 사용 x)
+--abort: 병합 충돌 시 병합 취소, --contiunue: 병합 충돌 해결 후 병합
