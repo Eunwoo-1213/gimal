@@ -1,10 +1,10 @@
-#reset
+#reset (로그 이력 제거O)
 -- hard 로컬(작업 디렉토리)저장소, 스테이징 영역, 깃 저장소 모두 복사 (되돌리려면 파일 수정, add, commit 필요)
 -- mixed 스테이징 영역, 깃 저장소에만 복사 (되돌리려면 add, commit 필요) ✨git reset mixed = git reset
 -- soft 깃 저장소에만 복사(되돌리려면 commit 필요)
 
 명령 reset 전의 커밋을 참조하는 이름은? ORIG_HEAD
 
-#revert
+#revert (로그 이력 제거X)
 reset과 다르게 커밋할 것이 없고, 작업 영역이 깨끗해야 수행 가능
 git revert HEAD = git reset --hard HEAD~
