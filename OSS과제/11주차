@@ -44,10 +44,9 @@ $ git merge --no-ff (일렬상태일때 fast-foward가 아닌 3-way merge를 사
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 #squash 병합
-$ git merge --squash hotfix (새로운 커밋에 상대 브랜치의 내용을 모두 합해 새로운 커밋으로 병합)
 $ git --squash 사용 시 예:($git merge topic --squash)
-
+                                main
 O -> O  ㅡㅡ> O  ㅡㅡ>  O ㅡㅡ> X Y Z
       \                       /              (이력이 남지는 않지만 상대 브랜치가 사라지진 않음, 연결고리 생성x) 
        ㅡㅡㅡ X ㅡ> Y ㅡ> Z ㅡ
-                     
+                        topic        
