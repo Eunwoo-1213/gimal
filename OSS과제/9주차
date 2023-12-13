@@ -11,5 +11,3 @@ $git remote rename origin org (별칭 이름 수정 origin -> org)
 #push, pull
 로컬 저장소 -> 원격 저장소(push) $git push
 로컬 저장소 <- 원격 저장소(pull) $git pull = git fetch + git merge, 예시순서(1. $git fetch origin 2. $git merge origin/main)
-
-🔔code로 확인해주세요!! (preview X)
