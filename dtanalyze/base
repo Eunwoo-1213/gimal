@@ -1,0 +1,7 @@
+pip install matplotlib 이후
+
+import csv
+import matplotlib pyplot as plt
+f = open('파일명.csv', 'r', encoding = 'utf-8')
+data = csv.reader(f)
+header = next(data)
