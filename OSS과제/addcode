@@ -1,0 +1,11 @@
+언급내용
+$ git config --global user.name 사용자 이름 (사용자 이름 설정)
+$ git config --global user.email 사용자 이메일 (사용자 이메일 설정)
+$ git config --global core.autocrlf true (줄바꿈 자동설정)
+$ git config --global core.safecrlf false (줄바꿈 안전 설정)
+$ git config --global core.editor 'code --wait' (기본 편집기 설정)
+$ git config --global init.defaultBranch main (기본 브랜치 이름 설정)
+
+$ git init basic (저장소 생성)
+$ cd basic (폴더 이동)
+$ ls -al (파일 확인)
